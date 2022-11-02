@@ -1,0 +1,58 @@
+.index-about{
+    padding: 120px 0 100px;
+}
+.about-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    p{
+        width: 540px;
+    }
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background: #34547A;
+    margin-top: 100px;
+}
+
+
+.projects-list{
+    width: 1110px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.projects li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 70px;
+    width: 150px;
+    background-image: url("data:image/svg+xml,%3Csvg width='50' height='50' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M49.2 0H11.7c-.5 0-.9.4-.9.8v12.5h1.7V1.7h35.8v45.8c0 .4-.3.8-.7.8h-.7a5.8 5.8 0 0 1-5.2-5.8v-1.7c0-.4-.4-.8-.9-.8H12.5V25h-1.7v15H4.2c-.5 0-.9.4-.9.8v1.7c0 4.1 3.4 7.5 7.5 7.5h36.8c1.3 0 2.4-1.1 2.4-2.5V.8c0-.4-.4-.8-.8-.8ZM10.8 48.3A5.8 5.8 0 0 1 5 42.5v-.8h35v1.8l.2.6v.2a7.6 7.6 0 0 0 .5 1.4v.1l.4.6v.1l.5.6a7.7 7.7 0 0 0 1.2 1.2h-32Z' fill='%23fff'/%3E%3Cpath d='M27.5 23.3c.2 0 .4 0 .6-.2l3.3-3.3c.3-.4.3-.9 0-1.2l-3.3-3.4a.8.8 0 0 0-.6-.2H4.2a4.2 4.2 0 0 0 0 8.3h23.3Zm-.2-6.5 2.4 2.4-2.4 2.3-.6-2.3.6-2.4Zm-20.6-.1h18.9l-.4 1.6H8.3V20h16.9l.4 1.7h-19v-5Zm-5 2.5c0-1.4 1-2.5 2.5-2.5H5v5h-.8a2.5 2.5 0 0 1-2.5-2.5ZM19.2 35.8h25c.4 0 .8-.3.8-.8V10a.8.8 0 0 0-1.4-.6l-25 25a.8.8 0 0 0 .6 1.4ZM43.3 12v2.2h-1.6v1.6h1.6v1.7h-1.6v1.7h1.6v1.6h-1.6v1.7h1.6v1.7h-1.6v1.6h1.6v1.7h-1.6v1.7h1.6v1.6h-1.6v1.7h1.6v1.7h-1.6v-1.7H40v1.7h-1.7v-1.7h-1.6v1.7H35v-1.7h-1.7v1.7h-1.6v-1.7H30v1.7h-1.7v-1.7h-1.6v1.7H25v-1.7h-1.7v1.7h-2.1L43.3 12Z' fill='%23fff'/%3E%3Cpath d='M31.2 30.8h8c.4 0 .8-.3.8-.8v-8a.8.8 0 0 0-1.4-.5l-8 8a.8.8 0 0 0 .6 1.3Zm7.1-6.7v5h-5l5-5ZM38.3 5H21.7v1.7h16.6V5ZM40.8 8.3H19.2V10h21.6V8.3ZM19.2 25.8h-5v1.7h5v-1.7ZM17.5 29.2h-3.3v1.6h3.3v-1.6Z' fill='%23fff'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+.counter{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    
+}
+
+.procetType{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}

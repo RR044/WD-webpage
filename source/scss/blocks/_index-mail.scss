@@ -1,0 +1,31 @@
+.index-mail{
+    background-color:#EEEFF1;
+    padding: 100px 0;
+
+}
+input{
+    display: flex;
+    align-content: flex-end;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    border: none;
+    color: #3a3939;
+    padding: 12px 20px;
+    min-width: 255px;
+    min-height: 50px;
+    &:nth-child(3){
+        grid-column: span 2;
+        min-width: 540px;
+        min-height: 175px;
+    }
+}
+
+.mail-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+}

@@ -1,0 +1,40 @@
+header{
+  background-color:#EEEFF1;
+}
+.header {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-box{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 60px;
+
+}
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  grid-gap: 42px;
+  &__link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+  }
+}
+
+.nav-list li:hover{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+
+  color: #34547A;
+} 

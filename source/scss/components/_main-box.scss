@@ -1,0 +1,24 @@
+.main-box{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 50px;
+    width: 541px;
+    &__title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 79px;
+
+        color: #000000;
+    }
+    &__text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+
+        color: #727272;
+    }
+}

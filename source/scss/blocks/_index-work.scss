@@ -1,0 +1,32 @@
+.index-work{
+    background: #EEEFF1;
+    padding: 100px 0;
+}
+.howIWork{
+    position: relative;
+}
+.howIWork::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url(/img/sprite/play-button.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: contain;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    &:hover{
+        transform: scale(.95);
+    }
+}
+.index-work img{
+    transition: all 0.25s;
+    cursor: pointer;
+    &:hover{
+        transform: scale(.97);
+    }
+}
