@@ -90,11 +90,13 @@
           <h2 class="main-box__title">Как я работаю</h2>
           <p class="main-box__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
             Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-            <div class="howIWork" data-video lg-uid="lg0">
-              <picture data-src="https://youtu.be/vbdw3iHzkFo?list=PLNkWIWHIRwMHUawuIEpPI_tOG7Mfhs_sA">
-                <source type='image/webp' srcset='img/video.webp'>
-                <img width='1110' height='600' src='img/video.png' alt='image'>
-              </picture>
+            <div class="howIWork" data-video>
+              <div class="video-block" data-src="https://youtu.be/vbdw3iHzkFo?list=PLNkWIWHIRwMHUawuIEpPI_tOG7Mfhs_sA">
+                <picture>
+                  <source type='image/webp' srcset='img/video.webp'>
+                  <img width='1110' height='600' src='img/video.png' alt='image'>
+                </picture>
+              </div>
             </div>
         </div>
       </div>
@@ -200,7 +202,7 @@
           <div class="mail-box">
             <input type="text" placeholder="Ваше имя">
             <input type="email" placeholder="Ваш e-mail">
-            <input class="placeholder3" type="text" placeholder="Сообщение">
+            <textarea class="placeholder3"  cols="30" rows="10" placeholder="Сообщение"></textarea>
           </div>
           <button class="sendEmail btn">ОТПРАВИТЬ</button>
         </div>
